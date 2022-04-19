@@ -12,7 +12,6 @@
   <target name="help">
     <echo>
 The COOJA Simulator
-
   Start COOJA
   > ant run
   Build COOJA (dist/cooja.jar) and all default projects (MSPSim et al)
@@ -35,6 +34,11 @@ The COOJA Simulator
     The output JAR is saved to exported.jar
     </echo>
   </target>
+
+  <target name="print-version"> 
+   <echo>Java/JVM version: ${ant.java.version}</echo> 
+   <echo>Java/JVM detail version: ${java.version}</echo> 
+</target>
 
   <target name="init">
     <tstamp/>
