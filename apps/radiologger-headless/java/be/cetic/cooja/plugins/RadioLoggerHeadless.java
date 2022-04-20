@@ -100,7 +100,7 @@ public class RadioLoggerHeadless extends VisPlugin {
             pcapSendingFile = null;
             pcapSendingExporter = new PcapExporter();
             // pcapReceivingFile = new File[motesCount];
-            pcapReceivingExporter = new PcapExporter[motesCount];
+            // pcapReceivingExporter = new PcapExporter[motesCount];
             // for (int i = 0; i < motesCount; i++) {
             //     pcapReceivingFile[i] = null;
             //     pcapReceivingExporter[i] = new PcapExporter();
